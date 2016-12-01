@@ -1,2 +1,9 @@
-# postcodelookup
-Simple program using getAddress.io API to get list of adresses to a given UK postcode
+# Postcode lookup
+
+Simple program to test the getAddress.io API for postcode lookup.
+Uses free key too connect to server and get the JSON object as 
+a response. Uses String methods to cut off the not required parts and
+split the addresses into a String array. Later this array can be used 
+as a dropdown list to select the address.
+
+
